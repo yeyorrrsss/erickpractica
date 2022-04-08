@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    background-color: rgb(104, 223, 134);
+}
+.ContenedorPrincipal{
+    max-width: 10000px;
+    margin: 0 auto;
+}
+header{
+    background-color: rgb(236, 79, 79);
+    overflow: hidden; 
+    width: 100%;
+}
+header nav ul li{
+    list-style: none;
+    float: left;
+}
+header nav ul li a{
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+    display: inline-block;
+    color: #000000;
+}
+header nav ul li a:hover{
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+    display: inline-block;
+    background-color: #f1be14;
+    color: white;
+}
+main{
+    /*clear: both;*/
+    background-color: white;
+    width: 80%;
+    float: left;
+}
+
+}
+main img{
+    max-width: 100%;
+}
+main section{
+    padding: 5%;
+}
+main section{
+    text-align: justify;
+    margin-bottom: 16px;
+}
+main h1{
+    margin-bottom: 20px;
+}
+.caja1{
+    width: 20px;
+    height: 20px;
+    background-color: 308037;
+    color: rgb(155, 27, 27);
+    text align: center;
+    line-height: 20px;
+    margin: 10px;
+    float: :left;
+    font-size: 10px;
+    font-family: Arial;
+}
+.caja1:hover{
+    background-color: #e52f6e;
+}   
+aside{
+    width: 20%;
+    float: left;
+    background-color: aqua;
+    padding: 30px;
+}
+aside ul li{
+    text-decoration: none;
+    color: #425067;
+}
+aside ul li:hover{
+    color: #425067;
+}
+aside ul li{
+    list-style: none;
+    margin-bottom: 16px;
+    border-bottom: 1px solid black;
+}
+aside h4{
+    color: black;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+footer{
+    width: 80%;
+    clear: both;
+    padding: 60px;
+    background-color: #e52f6e;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
+@media screen and (max-width: 800px){
+    main{
+        width: 100%;
+        display: block;
+}
+aside{
+    width: 100%;
+    display: block;
+}
+footer{
+    width: 100%;
+    display: block;
+    }
+}
